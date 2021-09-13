@@ -1,0 +1,48 @@
+nav {
+  z-index: 999999;
+}
+
+@media (min-width: 1024px) {
+  nav .navbar-container {
+    padding: 4% 4% 4% 4%;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav .navbar-container {
+    padding: 2.5% 2% 2.5% 3%;
+  }
+}
+
+nav .navbar-container .navbar {
+  z-index: 99999;
+}
+
+nav .navbar-container .navbar .right-col .button .menu-btn:hover .menu-btn-burger::before {
+  background-color: black;
+}
+
+nav .navbar-container .navbar .right-col .button .menu-btn .menu-btn-burger {
+  width: 25px;
+  height: 2px;
+  background-color: black;
+}
+
+nav .navbar-container .navbar .right-col .button .menu-btn .mbb2 {
+  margin-top: 4px;
+}
+
+nav .navbar-container .navbar .right-col .button .menu-btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 50px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+/*# sourceMappingURL=nav.css.map */
